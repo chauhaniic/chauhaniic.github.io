@@ -36,8 +36,8 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #5f6b77;
-  color: #2d844e;
+
+  color: #4ef78f;
 }
 
 a:focus {
@@ -553,7 +553,7 @@ a.dotted-link:hover {
 }
 
 .languages .item .level {
-  color: rgb(231, 230, 230);
+  color: rgb(212, 212, 212);
 }
 
 .languages .item:last-child {
