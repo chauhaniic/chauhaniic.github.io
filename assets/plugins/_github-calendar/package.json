@@ -60,9 +60,9 @@
             "</div>",
             "",
             "<script>",
-            "    GitHubCalendar(\".calendar\", \"your-username\");",
+            "    GitHubCalendar(\".calendar\", \"chauhaniic\");",
             "    // or enable responsive functionality:",
-            "    GitHubCalendar(\".calendar\", \"your-username\", { responsive: true });",
+            "    GitHubCalendar(\".calendar\", \"chauhaniic\", { responsive: true });",
             "</script>"
           ]
         }
