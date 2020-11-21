@@ -14,7 +14,7 @@ function sendEmail() {
           message => alert(message)
         );
 
-
+}
             /* SmtpJS.com - v3.0.0 */
             var Email = {
                 send: function (a) {
