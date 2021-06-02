@@ -81,7 +81,7 @@
         <!--//profile-->
         <a
           class="btn btn-cta-primary float-right"
-          href="https://t.me/weirrddo"
+          href="https://t.me/weirrdo"
           target="_blank"
           ><i class="fas fa-paper-plane"></i> Contact Me</a
         >
@@ -851,6 +851,31 @@
     ></script>
     <!-- custom js  -->
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script type="text/javascript" src="assets/js/smtp.js"></script>
+    
+  <!-- Email script -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>  
+
+  <script>
+    function sendEmail() {
+      //
+    //SecureToken : "<your generated token>"
+      var name = document.getElementById("usr_name").value;
+      var sender = document.getElementById("usr_email").value;
+      var subject = document.getElementById("usr_subject").value;
+      var message = document.getElementById("usr_message").value;
+
+    Email.send({
+        Host : "mail.smtp2go.com",
+        Username : "kark@cornell.edu",
+        Password : "MDlyYXQ3M3d5MGNv",
+        To : 'sanjeev.chauhan@iic.ac.in',
+        From : ''+sender+'',
+        Subject : ""+subject+"",
+        Body : "<html><strong>"+message+"</strong><br></br><em>Regards: "+name+" </em></html>"
+    }).then(
+      message => alert(message)
+    );
+    }
+  </script>
   </body>
 </html>
